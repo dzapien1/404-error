@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,GRAD@8..144,100..1000,150&display=swap"); 
+.bodyT {
+    font-family: "Roboto Flex", serif;
+    font-optical-sizing: auto;
+    font-weight: 150;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "GRAD" 150,
+        "XOPQ" 96,
+        "XTRA" 468,
+        "YOPQ" 79,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738,
+        "YTLC" 514,
+        "YTUC" 712;
+    }
+
+    
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,GRAD@8..144,100..1000,-44&display=swap"); 
+* {
+    font-family: "Roboto Flex", serif;
+    font-optical-sizing: auto;
+    font-weight: 60;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "GRAD" 55,
+        "XOPQ" 96,
+        "XTRA" 468,
+        "YOPQ" 79,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738,
+        "YTLC" 514,
+        "YTUC" 712;
+    }
+
+.imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bodyB {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 2rem;
+    
+}
+
+.header {
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    
+}
+
+.homepage-button {
+    color: #ffffff;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    background: #000000;
+    width: 210px;
+    border-radius: 15px;
+    margin: auto; 
+    
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0%;
+    width: 100%
+
+}
